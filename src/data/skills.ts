@@ -32,7 +32,11 @@ export type SkillId =
   | "linux"
   | "bash"
   | "n8n"
-  | "advpl";
+  | "advpl"
+  | "php"
+  | "angular"
+  | "vue"
+  | "laravel";
 
 export interface SkillGroup {
   id: "backend" | "frontend" | "mobile" | "devops";
@@ -49,13 +53,15 @@ export const skillGroups: SkillGroup[] = [
       "efcore",
       "sqlserver",
       "postgres",
-      "mongodb",
-      "redis",
+      // "mongodb",
+      // "redis",
       "docker",
-      "k8s",
+      // "k8s",
       "node",
-      "nestjs",
-      "prisma",
+      "php",
+      "laravel",
+      // "nestjs",
+      // "prisma",
     ],
   },
   {
@@ -65,17 +71,19 @@ export const skillGroups: SkillGroup[] = [
       "ts",
       "js",
       "html",
-      "zod",
+      // "zod",
       "css",
       "mui",
       "vite",
-      "webpack",
+      "angular",
+      "vue",
+      // "webpack",
     ],
   },
-  {
-    id: "mobile",
-    items: ["flutter", "dart", "reactnative"],
-  },
+  // {
+  //   id: "mobile",
+  //   items: ["flutter", "dart", "reactnative"],
+  // },
   {
     id: "devops",
     items: [
@@ -86,8 +94,8 @@ export const skillGroups: SkillGroup[] = [
       "aws",
       "linux",
       "bash",
-      "n8n",
-      "advpl",
+      // "n8n",
+      // "advpl",
     ],
   },
 ];

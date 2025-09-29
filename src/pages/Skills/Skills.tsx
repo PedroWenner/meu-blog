@@ -12,7 +12,6 @@ import { useTranslation } from "react-i18next";
 import { skillGroups } from "@/data/skills";
 import type { SkillId } from "@/data/skills";
 
-// Ícones (FontAwesome + MUI)
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDocker,
@@ -23,6 +22,7 @@ import {
   faNode,
   faReact,
   faAndroid,
+  faPhp, faLaravel, faAngular, faVuejs
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDatabase,
@@ -111,6 +111,14 @@ function iconFor(id: SkillId) {
       return <ScienceIcon sx={{ fontSize: 16 }} />;
     case "advpl":
       return <ScienceIcon sx={{ fontSize: 16 }} />;
+    case "php":
+      return <FontAwesomeIcon icon={faPhp} />;
+    case "laravel":
+      return <FontAwesomeIcon icon={faLaravel} />;
+    case "angular":
+      return <FontAwesomeIcon icon={faAngular} />;
+    case "vue":
+      return <FontAwesomeIcon icon={faVuejs} />;
     default:
       return null;
   }

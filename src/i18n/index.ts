@@ -119,6 +119,10 @@ const resources = {
           bash: "Bash",
           n8n: "n8n",
           advpl: "ADVPL",
+          php: "PHP",
+          laravel: "Laravel",
+          angular: "Angular",
+          vue: "Vue.Js",
         },
       },
       contact: {
@@ -249,6 +253,10 @@ const resources = {
           bash: "Bash",
           n8n: "n8n",
           advpl: "ADVPL",
+          php: "PHP",
+          laravel: "Laravel",
+          angular: "Angular",
+          vue: "Vue.Js",
         },
       },
       contact: {
