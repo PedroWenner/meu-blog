@@ -137,6 +137,30 @@ const resources = {
           tiktok: { title: "TikTok" },
         },
       },
+      projects: {
+        intro: "Abaixo alguns projetos recentes. Em breve adiciono mais detalhes e cases.",
+        btn: { github: "Ver no GitHub", nuget: "Ver no NuGet", live: "Acessar" },
+        breadcrumb: { home: "Início", projects: "Projetos" },
+        detail: {
+          technologies: "Tecnologias:",
+          about: "Sobre o Projeto",
+          features: "Principais Funcionalidades"
+        },
+        items: {
+          toolsharp: {
+            title: "ToolSharp",
+            desc: "Extensões para tarefas assíncronas. Biblioteca de utilitários para Task em .NET.",
+            about:
+              "ToolSharp é uma biblioteca leve de métodos de extensão para Task em .NET, projetada para simplificar o uso de tarefas assíncronas com mais segurança, clareza e menos código repetitivo. Ela permite executar tarefas de forma desacoplada (fire-and-forget) com tratamento de erros integrado, possibilitando aplicações assíncronas mais limpas e robustas.",
+            features: {
+              0: "Métodos de extensão para Task",
+              1: "Execução desacoplada (fire-and-forget)",
+              2: "Tratamento de erros integrado",
+              3: "Código mais limpo e seguro"
+            }
+          }
+        }
+      },
     },
   },
   en: {
@@ -270,6 +294,30 @@ const resources = {
           github: { title: "GitHub" },
           tiktok: { title: "TikTok" },
         },
+      },
+      projects: {
+        intro: "Here are a few recent projects. More details and case studies coming soon.",
+        btn: { github: "View on GitHub", nuget: "View on NuGet", live: "Open" },
+        breadcrumb: { home: "Home", projects: "Projects" },
+        detail: {
+          technologies: "Technologies:",
+          about: "About the Project",
+          features: "Key Features"
+        },
+        items: {
+          toolsharp: {
+            title: "ToolSharp",
+            desc: "Async task extensions. Utility library for Task in .NET.",
+            about:
+              "ToolSharp is a lightweight extension library for .NET Task designed to make async usage safer and clearer with less boilerplate. It enables fire-and-forget execution with integrated error handling, leading to cleaner and more robust async apps.",
+            features: {
+              0: "Extension methods for Task",
+              1: "Fire-and-forget execution",
+              2: "Integrated error handling",
+              3: "Cleaner and safer code"
+            }
+          }
+        }
       },
     },
   },
