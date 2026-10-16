@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Box,
   Card,
@@ -124,26 +123,6 @@ function iconFor(id: SkillId) {
   }
 }
 
-function CardContainer({ children }: { children: React.ReactNode }) {
-  return (
-    <Card
-      elevation={0}
-      sx={{
-        height: "100%",
-        borderRadius: 3,
-        border: 1,
-        borderColor: "divider",
-        background: (theme) =>
-          theme.palette.mode === "light"
-            ? "linear-gradient(180deg, #f7f9fc 0%, #f5f7fb 100%)"
-            : "linear-gradient(180deg, #101826 0%, #0d1420 100%)",
-      }}
-    >
-      <CardContent sx={{ p: { xs: 2, md: 3 } }}>{children}</CardContent>
-    </Card>
-  );
-}
-
 export default function SkillsPage() {
   const { t } = useTranslation();
 
@@ -162,7 +141,7 @@ export default function SkillsPage() {
       >
         <Grid container rowSpacing={2} columnSpacing={2} alignItems="stretch">
           {skillGroups.map((group) => (
-            <Grid key={group.id} item xs={12} md={6}>
+            <Grid key={group.id} size={{ xs: 12, md: 6 }}>
               <Card
                 elevation={0}
                 sx={{

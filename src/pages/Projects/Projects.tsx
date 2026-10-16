@@ -142,8 +142,8 @@ export default function ProjectsPage() {
                   width: "100%",
                   height: 160,
                   objectFit: "cover",
-                  borderTopLeftRadius: (theme) => theme.shape.borderRadius * 3,
-                  borderTopRightRadius: (theme) => theme.shape.borderRadius * 3
+                  borderTopLeftRadius: (theme) => Number(theme.shape.borderRadius) * 3,
+                  borderTopRightRadius: (theme) => Number(theme.shape.borderRadius) * 3
                 }}
               />
 

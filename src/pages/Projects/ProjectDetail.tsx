@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Link as RouterLink, useNavigate } from "react-router-dom";
 import {
-    Box, Breadcrumbs, Link, Typography, Card, CardContent, Chip, Stack, Divider, Button
+    Box, Breadcrumbs, Link, Typography, Card, CardContent, Chip, Stack, Button
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useTranslation } from "react-i18next";

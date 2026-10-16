@@ -25,7 +25,7 @@ function initials(name: string): string {
 }
 
 export default function ExperiencePage() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [expanded, setExpanded] = React.useState<string | false>(
     experiences[0]?.id || false
   );

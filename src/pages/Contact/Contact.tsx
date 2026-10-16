@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Box,
   Card,
@@ -47,7 +46,7 @@ export default function ContactPage() {
       >
         <Grid container spacing={2} alignItems="stretch">
           {contacts.map((c) => (
-            <Grid key={c.id} item xs={12} md={6} sx={{ display: "flex" }}>
+            <Grid key={c.id} size={{ xs: 12, md: 6 }} sx={{ display: "flex" }}>
               <Card
                 elevation={0}
                 sx={{

@@ -28,11 +28,4 @@ export const contacts: ContactItem[] = [
     color: "#333333",
     i18nKey: "contact.items.github",
   },
-  // {
-  //   id: "tiktok",
-  //   href: "https://www.tiktok.com/@kauemoraes.dev",
-  //   handle: "@kauemoraes.dev",
-  //   color: "#000000",
-  //   i18nKey: "contact.items.tiktok",
-  // },
 ];

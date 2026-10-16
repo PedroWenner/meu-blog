@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     company: "Platform Builders",
     role: "Backend Developer Pleno",
     i18nKey: "experience.items.builders",
-    period: { start: "2025-01" }, // end ausente = Presente
+    period: { start: "2025-01" },
     summary:
       "Atuação como Desenvolvedor Backend no ecossistema .NET/C#, construindo e mantendo microsserviços escaláveis e soluções em nuvem.",
     activities: [
